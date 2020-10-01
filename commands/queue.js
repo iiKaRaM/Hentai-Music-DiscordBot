@@ -14,7 +14,7 @@ module.exports = {
     if (!serverQueue) return sendError("There is nothing playing in this server.", message.channel);
 
     let queue = new MessageEmbed()
-    .setAuthor("Server Songs Queue", "https://raw.githubusercontent.com/iiKaRaM/Hentai-Music-DiscordBot/")
+    .setAuthor("Server Songs Queue", "https://raw.githubusercontent.com/iiKaRaM/Hentai-Music-DiscordBot/master/assets/Music.gif")
     .setColor("BLUE")
     .addField("Now Playing", serverQueue.songs[0].title, true)
     .addField("Text Channel", serverQueue.textChannel, true)
