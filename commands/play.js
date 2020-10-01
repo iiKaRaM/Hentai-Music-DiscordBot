@@ -81,7 +81,7 @@ module.exports = {
         .on("error", (error) => console.error(error));
       dispatcher.setVolumeLogarithmic(queue.volume / 5);
       let thing = new MessageEmbed()
-      .setAuthor("Started Playing Music!", "https://raw.githubusercontent.com/iiKaRaM/Hentai-Music-DiscordBot/")
+      .setAuthor("Started Playing Music!", "https://raw.githubusercontent.com/iiKaRaM/Hentai-Music-DiscordBot/master/assets/Music.gif")
       .setThumbnail(song.img)
       .setColor("BLUE")
       .addField("Name", song.title, true)
